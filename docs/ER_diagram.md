@@ -1,3 +1,4 @@
+```mermaid
 erDiagram
     USER {
         BIGINT id

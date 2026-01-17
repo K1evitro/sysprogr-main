@@ -486,3 +486,130 @@
 2026-01-17T00:47:27.203+03:00  INFO 24420 --- [sysprogr] [http-nio-8080-exec-5] c.e.demo.controller.ReportController     : Формирование отчёта по аномалиям: from=2025-12-31T21:47:00.000Z, to=2026-01-30T21:47:00.000Z
 2026-01-17T00:47:27.224+03:00  INFO 24420 --- [sysprogr] [http-nio-8080-exec-5] c.e.demo.controller.ReportController     : Отчёт по аномалиям сформирован, записей: 3
 2026-01-17T00:47:27.226+03:00  INFO 24420 --- [sysprogr] [http-nio-8080-exec-5] Response                                 : [34mUser: admin1 completed URL: /api/reports/anomalies [GET] in 25 ms[0m
+2026-01-17T01:41:42.249+03:00  INFO 9500 --- [sysprogr] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 17.0.16 with PID 9500 (C:\Users\ramis\Desktop\1\учеба\sysprogr-main\target\classes started by ramis in C:\Users\ramis\Desktop\1\учеба\sysprogr-main)
+2026-01-17T01:41:42.254+03:00  INFO 9500 --- [sysprogr] [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2026-01-17T01:41:42.319+03:00  INFO 9500 --- [sysprogr] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-17T01:41:42.320+03:00  INFO 9500 --- [sysprogr] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-17T01:41:43.400+03:00  INFO 9500 --- [sysprogr] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-17T01:41:43.510+03:00  INFO 9500 --- [sysprogr] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100 ms. Found 7 JPA repository interfaces.
+2026-01-17T01:41:44.301+03:00  INFO 9500 --- [sysprogr] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-17T01:41:44.320+03:00  INFO 9500 --- [sysprogr] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-17T01:41:44.321+03:00  INFO 9500 --- [sysprogr] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-01-17T01:41:44.400+03:00  INFO 9500 --- [sysprogr] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-17T01:41:44.402+03:00  INFO 9500 --- [sysprogr] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2081 ms
+2026-01-17T01:41:44.566+03:00  INFO 9500 --- [sysprogr] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-17T01:41:44.625+03:00  INFO 9500 --- [sysprogr] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-01-17T01:41:44.666+03:00  INFO 9500 --- [sysprogr] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-17T01:41:44.956+03:00  INFO 9500 --- [sysprogr] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-17T01:41:44.995+03:00  INFO 9500 --- [sysprogr] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-17T01:41:45.186+03:00  INFO 9500 --- [sysprogr] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5233c078
+2026-01-17T01:41:45.187+03:00  INFO 9500 --- [sysprogr] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-17T01:41:45.228+03:00  WARN 9500 --- [sysprogr] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-17T01:41:45.252+03:00  INFO 9500 --- [sysprogr] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.20
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-17T01:41:46.402+03:00  INFO 9500 --- [sysprogr] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-17T01:41:46.556+03:00  INFO 9500 --- [sysprogr] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-17T01:41:46.949+03:00  INFO 9500 --- [sysprogr] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-17T01:41:47.784+03:00  INFO 9500 --- [sysprogr] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-17T01:41:47.986+03:00  WARN 9500 --- [sysprogr] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-17T01:41:48.023+03:00  INFO 9500 --- [sysprogr] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-17T01:41:48.690+03:00  INFO 9500 --- [sysprogr] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-17T01:41:48.731+03:00  INFO 9500 --- [sysprogr] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-17T01:41:48.746+03:00  INFO 9500 --- [sysprogr] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 7.083 seconds (process running for 7.684)
+2026-01-17T01:41:50.310+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-17T01:41:50.311+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-17T01:41:50.312+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-17T01:41:50.352+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-1] Request                                  : [34mUser: anonymousUser requested URL: / [GET][0m
+2026-01-17T01:41:50.358+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-1] Response                                 : [34mUser: anonymousUser completed URL: / [GET] in 6 ms[0m
+2026-01-17T01:41:50.376+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-1] Request                                  : [34mUser: anonymousUser requested URL: /index.html [GET][0m
+2026-01-17T01:41:50.388+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-1] Response                                 : [34mUser: anonymousUser completed URL: /index.html [GET] in 12 ms[0m
+2026-01-17T01:41:52.138+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-7] Request                                  : [32mUser: anonymousUser requested URL: /api/auth/login [POST][0m
+2026-01-17T01:41:52.226+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-7] c.e.d.c.AuthenticationController         : Попытка входа пользователя username=admin1
+2026-01-17T01:41:52.491+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-7] AuthenticationSuccessEvent               : [35mUser [admin1] logged successfully[0m
+2026-01-17T01:41:52.568+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-7] c.e.d.c.AuthenticationController         : Успешный вход пользователя username=admin1, roles=ADMIN
+2026-01-17T01:41:52.581+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-7] Response                                 : [32mUser: admin1 completed URL: /api/auth/login [POST] in 443 ms[0m
+2026-01-17T01:41:52.625+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-8] Request                                  : [34mUser: admin1 requested URL: /api/auth/info [GET][0m
+2026-01-17T01:41:52.643+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-8] c.e.d.c.AuthenticationController         : Запрос информации о текущем пользователе
+2026-01-17T01:41:52.652+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-8] c.e.d.c.AuthenticationController         : Информация о пользователе получена: username=admin1, role=ADMIN
+2026-01-17T01:41:52.658+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-8] Response                                 : [34mUser: admin1 completed URL: /api/auth/info [GET] in 33 ms[0m
+2026-01-17T01:41:52.674+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-9] Request                                  : [34mUser: admin1 requested URL: /api/buses [GET][0m
+2026-01-17T01:41:52.676+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-9] c.example.demo.controller.BusController  : Запрос на получение списка всех автобусов
+2026-01-17T01:41:52.698+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-9] c.example.demo.controller.BusController  : Найдено автобусов: 6
+2026-01-17T01:41:52.702+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-9] Response                                 : [34mUser: admin1 completed URL: /api/buses [GET] in 28 ms[0m
+2026-01-17T01:41:52.716+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-10] Request                                  : [34mUser: admin1 requested URL: /api/sensors [GET][0m
+2026-01-17T01:41:52.722+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-10] c.e.demo.controller.SensorController     : Запрос всех данных датчиков: page=0, size=20, type=null
+2026-01-17T01:41:52.734+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-10] c.e.demo.controller.SensorController     : Получено записей датчиков: 13
+2026-01-17T01:41:52.744+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-10] Response                                 : [34mUser: admin1 completed URL: /api/sensors [GET] in 28 ms[0m
+2026-01-17T01:41:52.760+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-1] Request                                  : [34mUser: admin1 requested URL: /api/buses [GET][0m
+2026-01-17T01:41:52.761+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-1] c.example.demo.controller.BusController  : Запрос на получение списка всех автобусов
+2026-01-17T01:41:52.764+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-1] c.example.demo.controller.BusController  : Найдено автобусов: 6
+2026-01-17T01:41:52.766+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-1] Response                                 : [34mUser: admin1 completed URL: /api/buses [GET] in 6 ms[0m
+2026-01-17T01:41:52.781+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-2] Request                                  : [34mUser: admin1 requested URL: /api/sensors [GET][0m
+2026-01-17T01:41:52.782+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-2] c.e.demo.controller.SensorController     : Запрос всех данных датчиков: page=0, size=20, type=null
+2026-01-17T01:41:52.786+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-2] c.e.demo.controller.SensorController     : Получено записей датчиков: 13
+2026-01-17T01:41:52.790+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-2] Response                                 : [34mUser: admin1 completed URL: /api/sensors [GET] in 9 ms[0m
+2026-01-17T01:44:25.261+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-6] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/index.html [GET][0m
+2026-01-17T01:44:25.275+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-6] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/index.html [GET] in 14 ms[0m
+2026-01-17T01:44:25.327+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-8] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/index.css [GET][0m
+2026-01-17T01:44:25.327+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-7] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/swagger-ui.css [GET][0m
+2026-01-17T01:44:25.327+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-9] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/swagger-ui-bundle.js [GET][0m
+2026-01-17T01:44:25.328+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-10] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/swagger-ui-standalone-preset.js [GET][0m
+2026-01-17T01:44:25.328+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-1] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/swagger-initializer.js [GET][0m
+2026-01-17T01:44:25.330+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-8] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/index.css [GET] in 3 ms[0m
+2026-01-17T01:44:25.332+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-7] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/swagger-ui.css [GET] in 5 ms[0m
+2026-01-17T01:44:25.339+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-10] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/swagger-ui-standalone-preset.js [GET] in 10 ms[0m
+2026-01-17T01:44:25.344+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-1] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/swagger-initializer.js [GET] in 16 ms[0m
+2026-01-17T01:44:25.352+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-9] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/swagger-ui-bundle.js [GET] in 25 ms[0m
+2026-01-17T01:44:25.541+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-2] Request                                  : [34mUser: anonymousUser requested URL: /swagger-ui/favicon-32x32.png [GET][0m
+2026-01-17T01:44:25.544+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-2] Response                                 : [34mUser: anonymousUser completed URL: /swagger-ui/favicon-32x32.png [GET] in 3 ms[0m
+2026-01-17T01:44:25.606+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-3] Request                                  : [34mUser: anonymousUser requested URL: /v3/api-docs/swagger-config [GET][0m
+2026-01-17T01:44:25.610+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-3] Response                                 : [34mUser: anonymousUser completed URL: /v3/api-docs/swagger-config [GET] in 4 ms[0m
+2026-01-17T01:44:25.620+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-4] Request                                  : [34mUser: anonymousUser requested URL: /v3/api-docs [GET][0m
+2026-01-17T01:44:26.052+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 429 ms
+2026-01-17T01:44:26.099+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-4] Response                                 : [34mUser: anonymousUser completed URL: /v3/api-docs [GET] in 479 ms[0m
+2026-01-17T02:58:35.577+03:00  WARN 9500 --- [sysprogr] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m49s373ms360µs400ns).
+2026-01-17T02:59:15.606+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-5] Request                                  : [34mUser: anonymousUser requested URL: / [GET][0m
+2026-01-17T02:59:15.607+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-5] Response                                 : [34mUser: anonymousUser completed URL: / [GET] in 1 ms[0m
+2026-01-17T02:59:15.609+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-5] Request                                  : [34mUser: anonymousUser requested URL: /index.html [GET][0m
+2026-01-17T02:59:15.621+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-5] Response                                 : [34mUser: anonymousUser completed URL: /index.html [GET] in 12 ms[0m
+2026-01-17T02:59:18.292+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-9] Request                                  : [32mUser: anonymousUser requested URL: /api/auth/login [POST][0m
+2026-01-17T02:59:18.294+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-9] c.e.d.c.AuthenticationController         : Попытка входа пользователя username=admin1
+2026-01-17T02:59:18.372+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-9] AuthenticationSuccessEvent               : [35mUser [admin1] logged successfully[0m
+2026-01-17T02:59:18.384+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-9] c.e.d.c.AuthenticationController         : Успешный вход пользователя username=admin1, roles=ADMIN
+2026-01-17T02:59:18.386+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-9] Response                                 : [32mUser: admin1 completed URL: /api/auth/login [POST] in 94 ms[0m
+2026-01-17T02:59:18.400+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-2] Request                                  : [34mUser: admin1 requested URL: /api/auth/info [GET][0m
+2026-01-17T02:59:18.401+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-2] c.e.d.c.AuthenticationController         : Запрос информации о текущем пользователе
+2026-01-17T02:59:18.410+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-2] c.e.d.c.AuthenticationController         : Информация о пользователе получена: username=admin1, role=ADMIN
+2026-01-17T02:59:18.411+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-2] Response                                 : [34mUser: admin1 completed URL: /api/auth/info [GET] in 11 ms[0m
+2026-01-17T02:59:18.424+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-3] Request                                  : [34mUser: admin1 requested URL: /api/buses [GET][0m
+2026-01-17T02:59:18.426+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-3] c.example.demo.controller.BusController  : Запрос на получение списка всех автобусов
+2026-01-17T02:59:18.430+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-3] c.example.demo.controller.BusController  : Найдено автобусов: 6
+2026-01-17T02:59:18.432+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-3] Response                                 : [34mUser: admin1 completed URL: /api/buses [GET] in 8 ms[0m
+2026-01-17T02:59:18.444+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-4] Request                                  : [34mUser: admin1 requested URL: /api/sensors [GET][0m
+2026-01-17T02:59:18.445+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-4] c.e.demo.controller.SensorController     : Запрос всех данных датчиков: page=0, size=20, type=null
+2026-01-17T02:59:18.450+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-4] c.e.demo.controller.SensorController     : Получено записей датчиков: 13
+2026-01-17T02:59:18.452+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-4] Response                                 : [34mUser: admin1 completed URL: /api/sensors [GET] in 7 ms[0m
+2026-01-17T02:59:18.465+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-5] Request                                  : [34mUser: admin1 requested URL: /api/buses [GET][0m
+2026-01-17T02:59:18.466+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-5] c.example.demo.controller.BusController  : Запрос на получение списка всех автобусов
+2026-01-17T02:59:18.469+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-5] c.example.demo.controller.BusController  : Найдено автобусов: 6
+2026-01-17T02:59:18.470+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-5] Response                                 : [34mUser: admin1 completed URL: /api/buses [GET] in 5 ms[0m
+2026-01-17T02:59:18.483+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-8] Request                                  : [34mUser: admin1 requested URL: /api/sensors [GET][0m
+2026-01-17T02:59:18.485+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-8] c.e.demo.controller.SensorController     : Запрос всех данных датчиков: page=0, size=20, type=null
+2026-01-17T02:59:18.491+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-8] c.e.demo.controller.SensorController     : Получено записей датчиков: 13
+2026-01-17T02:59:18.493+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-8] Response                                 : [34mUser: admin1 completed URL: /api/sensors [GET] in 10 ms[0m
+2026-01-17T02:59:27.716+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-6] Request                                  : [34mUser: admin1 requested URL: /api/reports/anomalies [GET][0m
+2026-01-17T02:59:27.719+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-6] c.e.demo.controller.ReportController     : Формирование отчёта по аномалиям: from=2025-12-31T23:59:00.000Z, to=2026-01-30T23:59:00.000Z
+2026-01-17T02:59:27.750+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-6] c.e.demo.controller.ReportController     : Отчёт по аномалиям сформирован, записей: 3
+2026-01-17T02:59:27.753+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-6] Response                                 : [34mUser: admin1 completed URL: /api/reports/anomalies [GET] in 37 ms[0m
+2026-01-17T02:59:42.332+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-10] Request                                  : [34mUser: admin1 requested URL: /.well-known/appspecific/com.chrome.devtools.json [GET][0m
+2026-01-17T02:59:42.342+03:00  WARN 9500 --- [sysprogr] [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource .well-known/appspecific/com.chrome.devtools.json.]
+2026-01-17T02:59:50.131+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-1] Request                                  : [34mUser: admin1 requested URL: /api/reports/anomalies [GET][0m
+2026-01-17T02:59:50.132+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-1] c.e.demo.controller.ReportController     : Формирование отчёта по аномалиям: from=2025-12-31T23:59:00.000Z, to=2026-01-30T23:59:00.000Z
+2026-01-17T02:59:50.135+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-1] c.e.demo.controller.ReportController     : Отчёт по аномалиям сформирован, записей: 3
+2026-01-17T02:59:50.137+03:00  INFO 9500 --- [sysprogr] [http-nio-8080-exec-1] Response                                 : [34mUser: admin1 completed URL: /api/reports/anomalies [GET] in 6 ms[0m
